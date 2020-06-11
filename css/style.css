@@ -1,0 +1,72 @@
+/*font-family: 'Londrina Outline', cursive;
+font-family: 'Orbitron', sans-serif;*/
+
+body{
+    background: #000;
+}
+
+.timer{
+    font-family: 'Londrina Outline', cursive;
+    text-align: center;
+    font-size: 3em;
+    color: #fff;
+    letter-spacing: 0.15em;
+}
+
+.fecha{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.pink {
+    text-shadow: 
+        0 0 5px #FF7BAC,
+        0 0 10px #FF7BAC,
+        0 0 20px #FF7BAC,
+        0 0 40px #FF7BAC,
+        0 0 80px #FF7BAC,
+        0 0 90px #FF7BAC,
+        0 0 100px #FF7BAC,
+        0 0 150px #FF7BAC;
+}
+.blue {
+    text-shadow: 
+        0 0 5px #7BACFF,
+        0 0 10px #7BACFF,
+        0 0 20px #7BACFF,
+        0 0 40px #7BACFF,
+        0 0 80px #7BACFF,
+        0 0 90px #7BACFF,
+        0 0 100px #7BACFF,
+        0 0 150px #7BACFF;
+}
+.green {
+    text-shadow: 
+        0 0 5px #7BFFCE,
+        0 0 10px #7BFFCE,
+        0 0 20px #7BFFCE,
+        0 0 40px #7BFFCE,
+        0 0 80px #7BFFCE,
+        0 0 90px #7BFFCE,
+        0 0 100px #7BFFCE,
+        0 0 150px #7BFFCE;
+}
+
+/*responsive rules*/
+@media only screen and (max-width: 768px) {
+
+    body { 
+        font-size: 1.75vw;
+       letter-spacing: 5px;
+       max-width: 100%;
+       
+    }
+    .fix{
+        justify-content: center;
+        
+    }
+ }
